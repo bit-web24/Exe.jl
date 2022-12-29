@@ -1,6 +1,6 @@
 # Setup file to make executable from ProjectBase file
 print("Project File: "); 
-ProjectBase = readline()
+ProjectBase = realpath(readline())
 
 if isfile(ProjectBase)
 	println("Search $ProjectBase: OK")
